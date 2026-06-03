@@ -1,5 +1,3 @@
-import { WordsPullUp } from './animations'
-
 const LINKS = [
   { label: 'Twitter', href: 'https://twitter.com/0xAkina' },
   { label: 'Telegram', href: 'https://t.me/Akinacrypto' },
@@ -10,23 +8,9 @@ const LINKS = [
 
 export default function Footer() {
   return (
-    <footer
-      id="contact"
-      className="bg-black px-4 pb-10 pt-20 md:px-6 md:pb-12 md:pt-28"
-    >
+    <footer className="bg-black px-4 pb-10 pt-16 md:px-6 md:pb-12 md:pt-20">
       <div className="mx-auto max-w-7xl">
-        <span className="text-[10px] uppercase tracking-[0.25em] text-primary sm:text-xs">
-          Get in touch
-        </span>
-
-        <h2 className="mt-6 max-w-4xl text-4xl font-medium leading-[0.95] tracking-[-0.03em] sm:text-5xl md:text-6xl lg:text-7xl">
-          <WordsPullUp
-            text="Let's build the onchain future."
-            style={{ color: '#E1E0CC' }}
-          />
-        </h2>
-
-        <div className="mt-12 flex flex-wrap gap-x-8 gap-y-3 border-t border-white/10 pt-8">
+        <div className="flex flex-wrap gap-x-8 gap-y-3 border-t border-white/10 pt-8">
           {LINKS.map((link) => (
             <a
               key={link.label}
