@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
 
         <p className="mt-10 text-xs text-gray-500">
-          © {new Date().getFullYear()} Akina. Onchain specialist & tech addict.
+          © {new Date().getFullYear()} Akina. AI, crypto & investment.
         </p>
       </div>
     </footer>

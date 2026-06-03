@@ -46,9 +46,9 @@ export default function Hero() {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.5, ease: customEase }}
               >
-                Onchain specialist and tech addict. I design tokens, research
-                crypto &amp; AI, and build autonomous agents — from ERC-8004
-                security scanners to live trading dashboards.
+                Tech addict working across AI, crypto and investment. I help
+                companies automate their processes and design the economic
+                systems and agentic layers behind autonomous products.
               </motion.p>
 
               <motion.a

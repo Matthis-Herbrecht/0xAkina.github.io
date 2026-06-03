@@ -6,7 +6,7 @@ export default function About() {
       <div className="mx-auto max-w-6xl rounded-2xl bg-[#101010] px-6 py-20 text-center md:rounded-[2rem] md:px-12 md:py-28">
         {/* Small label */}
         <span className="text-[10px] uppercase tracking-[0.25em] text-primary sm:text-xs">
-          Onchain · Research
+          AI · Crypto · Investment
         </span>
 
         {/* Main heading */}
@@ -15,7 +15,7 @@ export default function About() {
             segments={[
               { text: 'I am Akina,', className: 'font-normal' },
               {
-                text: 'I invest, build and teach around crypto and AI',
+                text: 'I design economic systems and agentic layers for companies.',
                 className: 'font-serif italic',
               },
             ]}
@@ -25,7 +25,7 @@ export default function About() {
         {/* Body paragraph with scroll-linked reveal */}
         <div className="mx-auto mt-12 max-w-2xl">
           <ScrollRevealText
-            text="Over the past years I have worked across Web3 — designing tokens at Outlier Ventures, researching DeFi at Pyratz Labs, and writing onchain gaming research read around the industry. Today I split my time between investing, building autonomous agents, and teaching tokenomics."
+            text="I help companies automate their processes and ship autonomous products. I came up through venture — designing tokens at Outlier Ventures, researching DeFi at Pyratz Labs, and running token design at Pokenomix. Now I consult, invest, and build my own things."
             className="text-xs leading-relaxed sm:text-sm md:text-base"
             style={{ color: '#DEDBC8' }}
           />
