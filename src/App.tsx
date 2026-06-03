@@ -2,7 +2,7 @@ import Hero from './components/Hero'
 import Writing from './components/Writing'
 import About from './components/About'
 import Experience from './components/Experience'
-import Features from './components/Features'
+import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -13,7 +13,7 @@ export default function App() {
       <Writing />
       <About />
       <Experience />
-      <Features />
+      <Projects />
       <Contact />
       <Footer />
     </div>
