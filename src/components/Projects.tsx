@@ -23,15 +23,6 @@ const CTA: Record<Tag, string> = {
 
 const PROJECTS: Project[] = [
   {
-    name: 'AI Agent Arena',
-    role: 'Trading Competition',
-    description:
-      'AI agents battling in a live trading competition, streamed 24/7 on Twitch.',
-    href: 'https://www.twitch.tv/akinacrypto',
-    tag: 'LIVE',
-    featured: true,
-  },
-  {
     name: 'HyperLive',
     role: 'Real-Time Dashboard',
     description:
@@ -39,6 +30,7 @@ const PROJECTS: Project[] = [
     href: 'https://hyperlive-jade.vercel.app/',
     tag: 'LIVE',
     cta: 'Open live app',
+    featured: true,
   },
   {
     name: 'Age of War Onchain',
