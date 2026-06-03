@@ -12,10 +12,10 @@ export default function App() {
     <div className="bg-black">
       <Navbar />
       <Hero />
-      <Writing />
       <About />
       <Experience />
       <Projects />
+      <Writing />
       <Contact />
       <Footer />
     </div>
