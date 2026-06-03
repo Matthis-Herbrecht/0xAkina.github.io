@@ -51,8 +51,8 @@ export default function Hero() {
                 transition={{ duration: 0.8, delay: 0.5, ease: customEase }}
               >
                 Tech addict working across AI, crypto and investment. I help
-                companies automate their processes and design the economic
-                systems and agentic layers behind autonomous products.
+                companies automate and get more out of their AI, and I back the
+                founders building what comes next.
               </motion.p>
 
               <motion.a
