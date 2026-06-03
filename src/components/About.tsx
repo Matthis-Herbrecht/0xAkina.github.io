@@ -25,7 +25,7 @@ export default function About() {
         {/* Body paragraph with scroll-linked reveal */}
         <div className="mx-auto mt-12 max-w-2xl">
           <ScrollRevealText
-            text="On the consulting side, I help companies automate, optimise their AI, and put autonomous products into production. On the investment side, I back and advise founders building the next wave of AI and crypto."
+            text="I help companies automate their work, ship autonomous products, and get more out of the AI they already run. The rest of my time goes into investing, backing early teams across AI and crypto."
             className="text-xs leading-relaxed sm:text-sm md:text-base"
             style={{ color: '#DEDBC8' }}
           />
