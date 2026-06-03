@@ -8,7 +8,7 @@ const SOCIALS = [
   { network: 'Telegram', handle: '@Akinacrypto', href: 'https://t.me/Akinacrypto' },
   {
     network: 'GitHub',
-    handle: 'Matthis-Herbrecht',
+    handle: 'Akina',
     href: 'https://github.com/Matthis-Herbrecht',
   },
 ]
