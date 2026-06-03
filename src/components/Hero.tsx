@@ -2,8 +2,8 @@ import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
 import { WordsPullUp } from './animations'
 
-const HERO_VIDEO =
-  'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_170732_8a9ccda6-5cff-4628-b164-059c500a2b41.mp4'
+const HERO_IMAGE =
+  'https://d8j0ntlcm91z4.cloudfront.net/user_3B5Q6A0GvwQLgLdF5aVxlBgMfMv/hf_20260603_220906_d5732c08-1ed1-4d66-89fb-c261c053d66f.png'
 
 const customEase = [0.16, 1, 0.3, 1] as const
 
@@ -11,14 +11,12 @@ export default function Hero() {
   return (
     <section className="h-screen p-4 md:p-6">
       <div className="relative h-full w-full overflow-hidden rounded-2xl md:rounded-[2rem]">
-        {/* Background video */}
-        <video
+        {/* Background image */}
+        <img
           className="absolute inset-0 h-full w-full object-cover"
-          src={HERO_VIDEO}
-          autoPlay
-          loop
-          muted
-          playsInline
+          src={HERO_IMAGE}
+          alt=""
+          aria-hidden="true"
         />
 
         {/* Noise + gradient overlays */}
