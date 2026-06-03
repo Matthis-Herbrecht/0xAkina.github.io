@@ -128,10 +128,10 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
       >
         {project.name}
       </h3>
-      <p className="mt-1.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-primary/55 md:text-xs">
+      <p className="mt-1.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-primary/70 md:text-xs">
         {project.role}
       </p>
-      <p className="mt-4 flex-1 text-sm leading-relaxed text-gray-500">
+      <p className="mt-4 flex-1 text-sm leading-relaxed text-gray-400">
         {project.description}
       </p>
 

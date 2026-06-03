@@ -93,10 +93,10 @@ function ExperienceCard({ exp, index }: { exp: Experience; index: number }) {
       <h3 className="pr-6 text-lg font-medium text-primary md:text-xl">
         {exp.company}
       </h3>
-      <p className="mt-1.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-primary/55 md:text-xs">
+      <p className="mt-1.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-primary/70 md:text-xs">
         {exp.role}
       </p>
-      <p className="mt-4 text-sm leading-relaxed text-gray-500">
+      <p className="mt-4 text-sm leading-relaxed text-gray-400">
         {exp.description}
       </p>
     </motion.a>
