@@ -1,2 +1,17 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Local env files
+*.local
+.env
+.env.*
+
+# Editor / tooling
 .vercel
 .claude
+.DS_Store
+*.log
