@@ -22,8 +22,8 @@ export default function Hero() {
         />
 
         {/* Noise + gradient overlays */}
-        <div className="noise-overlay pointer-events-none absolute inset-0 opacity-[0.7] mix-blend-overlay" />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60" />
+        <div className="noise-overlay pointer-events-none absolute inset-0 opacity-[0.12] mix-blend-overlay" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/60" />
 
         {/* Hero content */}
         <div className="absolute bottom-0 left-0 right-0 z-10">
@@ -46,9 +46,9 @@ export default function Hero() {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.5, ease: customEase }}
               >
-                Akina is an onchain specialist and researcher exploring the
-                frontier of crypto, AI and autonomous agents — building,
-                investing and writing to unlock what comes next.
+                Onchain specialist and tech addict. I design tokens, research
+                crypto &amp; AI, and build autonomous agents — from ERC-8004
+                security scanners to live trading dashboards.
               </motion.p>
 
               <motion.a

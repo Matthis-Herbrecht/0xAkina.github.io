@@ -17,14 +17,13 @@ export default function Navbar() {
       className="fixed left-1/2 top-4 z-50 md:top-6"
     >
       <motion.div
-        animate={{ y: [0, -5, 0] }}
+        animate={{ y: [0, -6, 0] }}
         transition={{
-          duration: 4,
+          duration: 5,
           repeat: Infinity,
           ease: 'easeInOut',
-          delay: 1.1,
         }}
-        className="relative overflow-hidden rounded-full border border-white/[0.08] shadow-[0_10px_40px_rgba(0,0,0,0.55)] backdrop-blur-md"
+        className="relative transform-gpu overflow-hidden rounded-full border border-white/[0.08] shadow-[0_10px_40px_rgba(0,0,0,0.55)] will-change-transform"
         style={{
           background:
             'linear-gradient(180deg, #2c2c2c 0%, #1c1c1c 55%, #121212 100%)',

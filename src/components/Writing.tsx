@@ -111,7 +111,7 @@ function WritingRow({ item, index }: { item: WritingItem; index: number }) {
       </div>
 
       <div className="flex flex-shrink-0 items-center gap-3 pt-1">
-        <span className="rounded-md border border-white/15 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-primary/80 md:text-xs">
+        <span className="inline-flex min-w-[78px] items-center justify-center rounded-md border border-white/15 px-2 py-1.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-primary/80 md:min-w-[92px] md:text-xs">
           {item.type}
         </span>
         <ArrowUpRight className="h-5 w-5 -translate-x-1 text-primary opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100" />
