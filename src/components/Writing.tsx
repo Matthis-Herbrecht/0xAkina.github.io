@@ -14,70 +14,70 @@ const ITEMS: WritingItem[] = [
   {
     title: 'Token Gravity: M&A in Web3',
     description:
-      'Exploration of token consolidation dynamics and how large tokens attract smaller projects through capital, community, and technology.',
+      'Why the biggest tokens pull smaller projects into their orbit — through capital, community and tech.',
     type: 'Research',
     href: 'https://outlierventures.io/article/token-gravity-ma-in-web3/',
   },
   {
     title: 'Layer 2 Incentive Effectiveness Case Study',
     description:
-      'Analysis of Layer 2 incentive programs, examining airdrops and grants effectiveness across Optimism, Arbitrum, and Base.',
+      'Did the airdrops and grants actually work? A close look at L2 incentives on Optimism, Arbitrum and Base.',
     type: 'Research',
     href: 'https://outlierventures.io/article/layer-2-incentive-effectiveness-case-study/',
   },
   {
     title: 'Scaling Wars: A Look At L2 Stacks for Onchain Games',
     description:
-      'Comprehensive analysis of Layer 2 scaling solutions and their implications for blockchain gaming infrastructure.',
+      'The L2 stacks powering onchain games, and the trade-offs hiding behind each one.',
     type: 'Research',
     href: 'https://wasd.mirror.xyz/dAS22_SUtNYaXHvTsl-dRqdK0nedW_FuM3IjHfbfEYM',
   },
   {
     title: "The Ultimate Guide to Base's Gaming Ecosystem",
     description:
-      'Complete guide analyzing the key projects and opportunities for builders on Base.',
+      'The projects, tools and openings worth knowing if you are building games on Base.',
     type: 'Guide',
     href: 'https://wasd.mirror.xyz/OZy7yq8b7HcmhtlNCmM1CpD7EXNQSj5x1ragMmgXK9Y',
   },
   {
     title: 'The State of Funding For Onchain Games',
     description:
-      'Market report examining funding trends, investment patterns, and future capital deployment in blockchain gaming.',
+      'Where the money actually went in onchain gaming — and where it is heading next.',
     type: 'Report',
     href: 'https://wasd.mirror.xyz/_v9JaozkSDENbY7KCzrwX1lP6RuVLmSo7pCTMeJY-8U',
   },
   {
     title: 'How Pirate Nation is Leveling Up',
     description:
-      "Case study examining Pirate Nation's approach to onchain gaming and community engagement strategies.",
+      'How Pirate Nation keeps players hooked, and what other onchain games can steal from it.',
     type: 'Research',
     href: 'https://wasd.mirror.xyz/lwArnkfRM4j0XTYXpkHCwVLf163KXHn55tJ4XvDiM2E',
   },
   {
     title: '8 Onchain Gaming Builders to Watch in 2024',
     description:
-      'Curated selection of the most promising builders in the blockchain gaming ecosystem and their vision for the future.',
+      'Eight teams I had my eye on in onchain gaming for 2024 — and why.',
     type: 'Guide',
     href: 'https://wasd.mirror.xyz/gv9ChTjeX1NEuOLoQcAqakVBegYRCm6mZzbVP2IoLWQ',
   },
   {
     title: "L'influence des VC et les tokens Low Float",
     description:
-      "Analyse de l'impact des Venture Capitalists sur les stratégies de tokenomics et les mécanismes de low float.",
+      'Comment les VC façonnent la tokenomics, et la mécanique derrière les lancements low float.',
     type: 'Video',
     href: 'https://www.youtube.com/watch?v=SFiAz-PVxYc',
   },
   {
     title: 'Decryptalk x Akina — Episode 1',
     description:
-      "Discussion sur l'évolution du gaming onchain et les tendances émergentes du marché Web3.",
+      "On discute de l'évolution du gaming onchain et de ce qui monte dans le Web3.",
     type: 'Podcast',
     href: 'https://www.youtube.com/watch?v=dAsNPMCev30',
   },
   {
     title: 'Roundtable Discussion: Onchain Game Engines',
     description:
-      'Panel discussion on the future of onchain game engines, technical challenges, and innovation opportunities.',
+      'A panel on where onchain game engines are headed — the hard problems and the real openings.',
     type: 'Panel',
     href: 'https://www.youtube.com/watch?v=BpSQobQFsqo&t=1385s',
   },

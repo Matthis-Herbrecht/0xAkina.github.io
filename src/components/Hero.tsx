@@ -7,6 +7,12 @@ const HERO_IMAGE =
 
 const customEase = [0.16, 1, 0.3, 1] as const
 
+const SOCIALS = [
+  { label: 'Twitter', href: 'https://twitter.com/0xAkina' },
+  { label: 'Telegram', href: 'https://t.me/Akinacrypto' },
+  { label: 'GitHub', href: 'https://github.com/Matthis-Herbrecht' },
+]
+
 export default function Hero() {
   return (
     <section className="h-screen p-4 md:p-6">
@@ -61,6 +67,25 @@ export default function Hero() {
                   <ArrowRight className="h-4 w-4" style={{ color: '#E1E0CC' }} />
                 </span>
               </motion.a>
+
+              <motion.div
+                className="flex items-center gap-5 pt-1"
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.8, delay: 0.9, ease: customEase }}
+              >
+                {SOCIALS.map((s) => (
+                  <a
+                    key={s.label}
+                    href={s.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-xs font-medium text-primary/70 transition-colors hover:text-primary sm:text-sm"
+                  >
+                    {s.label}
+                  </a>
+                ))}
+              </motion.div>
             </div>
           </div>
         </div>
