@@ -16,7 +16,14 @@ export default function Navbar() {
       transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
       className="fixed left-1/2 top-4 z-50 md:top-6"
     >
-      <div
+      <motion.div
+        animate={{ y: [0, -5, 0] }}
+        transition={{
+          duration: 4,
+          repeat: Infinity,
+          ease: 'easeInOut',
+          delay: 1.1,
+        }}
         className="relative overflow-hidden rounded-full border border-white/[0.08] shadow-[0_10px_40px_rgba(0,0,0,0.55)] backdrop-blur-md"
         style={{
           background:
@@ -42,7 +49,7 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-      </div>
+      </motion.div>
     </motion.nav>
   )
 }
