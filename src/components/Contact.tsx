@@ -30,7 +30,7 @@ export default function Contact() {
         {/* Message */}
         <p className="mt-8 max-w-2xl text-base leading-relaxed text-primary/70 sm:text-lg md:text-xl">
           Whether you&apos;re exploring AI, crypto, investment or AI
-          implementation — I&apos;m open to high-signal conversations.
+          implementation, I&apos;m open to high-signal conversations.
         </p>
 
         {/* Calendly card */}

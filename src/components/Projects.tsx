@@ -26,7 +26,7 @@ const PROJECTS: Project[] = [
     name: 'HyperLive',
     role: 'Real-Time Dashboard',
     description:
-      'A real-time overview of Hyperliquid — top traders, liquidations and live market activity.',
+      'A real-time overview of Hyperliquid: top traders, liquidations and live market activity.',
     href: 'https://hyperlive-jade.vercel.app/',
     tag: 'LIVE',
     cta: 'Open live app',

@@ -14,7 +14,7 @@ const ITEMS: WritingItem[] = [
   {
     title: 'Token Gravity: M&A in Web3',
     description:
-      'Why the biggest tokens pull smaller projects into their orbit — through capital, community and tech.',
+      'Why the biggest tokens pull smaller projects into their orbit, through capital, community and tech.',
     type: 'Research',
     href: 'https://outlierventures.io/article/token-gravity-ma-in-web3/',
   },
@@ -42,7 +42,7 @@ const ITEMS: WritingItem[] = [
   {
     title: 'The State of Funding For Onchain Games',
     description:
-      'Where the money actually went in onchain gaming — and where it is heading next.',
+      'Where the money actually went in onchain gaming, and where it is heading next.',
     type: 'Report',
     href: 'https://wasd.mirror.xyz/_v9JaozkSDENbY7KCzrwX1lP6RuVLmSo7pCTMeJY-8U',
   },
@@ -56,7 +56,7 @@ const ITEMS: WritingItem[] = [
   {
     title: '8 Onchain Gaming Builders to Watch in 2024',
     description:
-      'Eight teams I had my eye on in onchain gaming for 2024 — and why.',
+      'Eight teams I had my eye on in onchain gaming for 2024, and why.',
     type: 'Guide',
     href: 'https://wasd.mirror.xyz/gv9ChTjeX1NEuOLoQcAqakVBegYRCm6mZzbVP2IoLWQ',
   },
@@ -68,7 +68,7 @@ const ITEMS: WritingItem[] = [
     href: 'https://www.youtube.com/watch?v=SFiAz-PVxYc',
   },
   {
-    title: 'Decryptalk x Akina — Episode 1',
+    title: 'Decryptalk x Akina, Episode 1',
     description:
       "On discute de l'évolution du gaming onchain et de ce qui monte dans le Web3.",
     type: 'Podcast',
@@ -77,7 +77,7 @@ const ITEMS: WritingItem[] = [
   {
     title: 'Roundtable Discussion: Onchain Game Engines',
     description:
-      'A panel on where onchain game engines are headed — the hard problems and the real openings.',
+      'A panel on where onchain game engines are headed: the hard problems and the real openings.',
     type: 'Panel',
     href: 'https://www.youtube.com/watch?v=BpSQobQFsqo&t=1385s',
   },

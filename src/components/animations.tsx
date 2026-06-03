@@ -137,7 +137,7 @@ interface AnimatedLetterProps {
 }
 
 export function AnimatedLetter({ char, progress, range }: AnimatedLetterProps) {
-  const opacity = useTransform(progress, range, [0.2, 1])
+  const opacity = useTransform(progress, range, [0.5, 1])
   return (
     <motion.span style={{ opacity }} className="inline">
       {char === ' ' ? ' ' : char}
