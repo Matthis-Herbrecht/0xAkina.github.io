@@ -16,14 +16,8 @@ export default function Navbar() {
       transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
       className="fixed left-1/2 top-4 z-50 md:top-6"
     >
-      <motion.div
-        animate={{ y: [0, -6, 0] }}
-        transition={{
-          duration: 5,
-          repeat: Infinity,
-          ease: 'easeInOut',
-        }}
-        className="relative transform-gpu overflow-hidden rounded-full border border-white/[0.08] shadow-[0_10px_40px_rgba(0,0,0,0.55)] will-change-transform"
+      <div
+        className="relative overflow-hidden rounded-full border border-white/[0.08] shadow-[0_10px_40px_rgba(0,0,0,0.55)]"
         style={{
           background:
             'linear-gradient(180deg, #2c2c2c 0%, #1c1c1c 55%, #121212 100%)',
@@ -48,7 +42,7 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-      </motion.div>
+      </div>
     </motion.nav>
   )
 }
