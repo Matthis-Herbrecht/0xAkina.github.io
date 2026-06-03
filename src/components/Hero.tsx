@@ -69,7 +69,7 @@ export default function Hero() {
               </motion.a>
 
               <motion.div
-                className="flex items-center gap-5 pt-1"
+                className="flex flex-wrap items-center gap-2.5 pt-1"
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.9, ease: customEase }}
@@ -80,7 +80,7 @@ export default function Hero() {
                     href={s.href}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-xs font-medium text-primary/70 transition-colors hover:text-primary sm:text-sm"
+                    className="rounded-full border border-primary/40 px-4 py-1.5 text-xs font-medium text-primary backdrop-blur-sm transition-all duration-200 hover:bg-primary hover:text-black sm:text-sm"
                   >
                     {s.label}
                   </a>

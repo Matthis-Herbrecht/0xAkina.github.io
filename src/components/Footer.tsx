@@ -2,8 +2,6 @@ const LINKS = [
   { label: 'Twitter', href: 'https://twitter.com/0xAkina' },
   { label: 'Telegram', href: 'https://t.me/Akinacrypto' },
   { label: 'GitHub', href: 'https://github.com/Matthis-Herbrecht' },
-  { label: 'Mirror', href: 'https://mirror.xyz/0xA6534C8bf255F859D309125202ab27e436384fE6' },
-  { label: 'Medium', href: 'https://medium.com/@Pokenomix' },
 ]
 
 export default function Footer() {
