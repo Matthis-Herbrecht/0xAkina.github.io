@@ -18,10 +18,12 @@ export default function Hero() {
         <video
           className="absolute inset-0 h-full w-full object-cover"
           src="/hero-bg.mp4"
+          poster="/hero-poster.jpg"
           autoPlay
           loop
           muted
           playsInline
+          preload="auto"
           aria-hidden="true"
         />
 
