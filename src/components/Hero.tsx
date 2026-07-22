@@ -17,8 +17,8 @@ export default function Hero() {
         {/* Background video */}
         <video
           className="absolute inset-0 h-full w-full object-cover"
-          src="/hero-bg.mp4"
-          poster="/hero-poster.jpg"
+          src={`${import.meta.env.BASE_URL}hero-bg.mp4`}
+          poster={`${import.meta.env.BASE_URL}hero-poster.jpg`}
           autoPlay
           loop
           muted
